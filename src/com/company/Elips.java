@@ -9,10 +9,11 @@ public class Elips {
         this.b = axisb;
     }
 
-    public double caclculateSquare(){
-      return Math.PI*a*b;
+    public double caclculateSquare() {
+        return Math.PI * a * b;
     }
-    public double calculatePerimetr(){
-        return ((Math.PI*a*(a+this.b)+(a-b))/b)*4;
+
+    public double calculatePerimetr() {
+        return ((Math.PI * a * (a + this.b) + (a - b)) / b) * 4;
     }
 }
